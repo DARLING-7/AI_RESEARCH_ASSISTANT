@@ -11,3 +11,24 @@ This project is an AI-powered research assistant that integrates with **Zotero**
 
 ---
 
+--python 10,11,12
+
+##First step:
+pip install -r requirements.txt
+
+##Technologies Used:
+
+Python 🐍
+Streamlit (UI)
+Zotero API (Fetching PDFs)
+LangChain (Agents & LLM Integration)
+Google Gemini AI (Summarization, Q&A)
+NLTK & Gensim (Topic modeling)
+Scikit-learn & NumPy (Validation)
+Matplotlib & Seaborn (Visualization)
+
+
+##Running the Application
+--To launch the Streamlit UI, run:
+
+streamlit run main.py
