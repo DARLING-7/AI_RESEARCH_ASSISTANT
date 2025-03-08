@@ -9,10 +9,10 @@ from langchain_google_genai import GoogleGenerativeAI
 import streamlit as st
 
 # Environment variables (replace with your actual keys)
-ZOTERO_API_KEY = "6Dp7Z5IU9J2lb3LThDtreQA0"
-ZOTERO_LIBRARY_ID = "15897624"
-ZOTERO_LIBRARY_TYPE = "user"
-GOOGLE_API_KEY = "AIzaSyCcao-ncq3sLDT-1gZphe7vYpib-21fnV8"
+ZOTERO_API_KEY = ""
+ZOTERO_LIBRARY_ID = ""
+ZOTERO_LIBRARY_TYPE = ""
+GOOGLE_API_KEY = ""
 
 # Initialize Zotero API
 zot = zotero.Zotero(ZOTERO_LIBRARY_ID, ZOTERO_LIBRARY_TYPE, ZOTERO_API_KEY)
