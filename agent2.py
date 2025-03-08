@@ -9,7 +9,7 @@ from agent2 import preprocess_text, extract_topics
 nltk.download("punkt", quiet=True)
 nltk.download("stopwords", quiet=True)
 
-GOOGLE_API_KEY = "AIzaSyCcao-ncq3sLDT-1gZphe7vYpib-21fnV8"  # Replace with your key
+GOOGLE_API_KEY = ""  # Replace with your key
 llm = GoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.5, google_api_key=GOOGLE_API_KEY)
 
 
