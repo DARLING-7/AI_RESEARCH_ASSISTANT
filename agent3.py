@@ -12,7 +12,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import re
 
-GOOGLE_API_KEY = "AIzaSyCcao-ncq3sLDT-1gZphe7vYpib-21fnV8"
+GOOGLE_API_KEY = ""
 llm = GoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.5, google_api_key=GOOGLE_API_KEY)
 genai_embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", google_api_key=GOOGLE_API_KEY)
 
